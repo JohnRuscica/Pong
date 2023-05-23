@@ -1,0 +1,60 @@
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #score {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+
+  }
+  #leftScore {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    
+  }
+  #rightScore {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    
+  }
+  .paddle {
+    position: absolute;
+    background-color: blue;
+    width: 10px;
+    height: 80px;
+  }
+  
+  #left-paddle {
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+  }
+  
+  #right-paddle {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+  }
+  
